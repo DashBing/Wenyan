@@ -1,12 +1,12 @@
 NAME
-    PerlYuYan - 中书珨 - Perl in Classical Chinese in Perl
+    wenyan - 中书珨 - Perl in Classical Chinese in Perl
 
 VERSION
     our $VERSION = 1257439830.94865; # 2009年11月 6日 周五 00时50分39秒 CST
 
 SYNOPSIS
         # The Sieve of Eratosthenes - 埃拉托斯芬筛法
-        use PerlYuYan;
+        use wenyan;
 
           用筹兮用严。井涸兮无碍
         。印曰最高矣  又道数然哉。
@@ -35,7 +35,7 @@ DESCRIPTION
     The vocabulary is in the 文言 (literary text) mode, not the common 白话
     (spoken text) mode with multisyllabic words.
 
-    "PerlYuYan::translate()" (or simply as "译()") translates
+    "wenyan::translate()" (or simply as "译()") translates
     a string containing English programs into Chinese.
 
 SEE ALSO
@@ -43,7 +43,7 @@ SEE ALSO
 
 CC0 1.0 Universal
     To the extent possible under law, 唐凤 has waived all copyright and
-    related or neighboring rights to Lingua-Sinica-PerlYuYan.
+    related or neighboring rights to Lingua-Sinica-wenyan.
 
     This work is published from Taiwan.
 

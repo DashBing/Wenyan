@@ -1,4 +1,4 @@
-use PerlYuYan;
+use wenyan;
 
 注俄农式乘法
 无警兮

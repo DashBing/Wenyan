@@ -1,6 +1,6 @@
 our $VERSION = 1257700140.47574; # 2009年11月 9日 周一 01时09分11秒 CST
 
-至于 PerlYuYan / 中书珨，则是第一篇过渡情境里的案头诗。
+至于 wenyan / 中书珨，则是第一篇过渡情境里的案头诗。
 
 就像是在对自已说，既然楚辞可以当程式跑，所以之后写程式和写诗的意思一样。
 写程式将亲人召唤至眼前，应与写诗将亲人召唤至眼前等价。
@@ -164,7 +164,7 @@ our $VERSION = 1257301380; # 2009年11月 4日 周三 10时22分59秒 CST
   are now under the nullary CC0 1.0 Universal terms:
 
   To the extent possible under law, 唐凤 has waived all copyright and
-  related or neighboring rights to Lingua-Sinica-PerlYuYan.
+  related or neighboring rights to Lingua-Sinica-wenyan.
 
 [Changes for 0.11 - 2009-11-03]
 
