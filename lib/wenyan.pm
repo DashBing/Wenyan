@@ -1,4 +1,4 @@
-package PerlYuYan;
+package wenyan;
 
 use 5.008;
 use utf8;
@@ -12,7 +12,7 @@ our $VERSION = 1257700140.47574; # 2009年11月 9日 周一 01时09分11秒 CST
 
 =head1 NAME
 
-PerlYuYan - 中书珨 - Perl in Classical Chinese in Perl
+wenyan - 中书珨 - Perl in Classical Chinese in Perl
 
 =head1 VERSION
 
@@ -21,7 +21,7 @@ our $VERSION = 1257700140.47574; # 2009年11月 9日 周一 01时09分11秒 CST
 =head1 SYNOPSIS
 
     # The Sieve of Eratosthenes - 埃拉托斯芬筛法
-    use PerlYuYan;
+    use wenyan;
 
       用筹兮用严。井涸兮无碍
     。印曰最高矣  又道数然哉。
@@ -49,7 +49,7 @@ between keywords, so one may elide whitespaces much like in real Chinese writing
 The vocabulary is in the 文言 (literary text) mode, not the common 白话
 (spoken text) mode with multisyllabic words.
 
-C<PerlYuYan::translate()> (or simply as C<译()>) translates a
+C<wenyan::translate()> (or simply as C<译()>) translates a
 string containing English programs into Chinese.
 
 =cut
@@ -103,7 +103,7 @@ L<Filter::Simple::Compile>, L<Lingua::Romana::Perligata>
 =head1 CC0 1.0 Universal
 
 To the extent possible under law, 唐凤 has waived all copyright and related
-or neighboring rights to Lingua-Sinica-PerlYuYan.
+or neighboring rights to Lingua-Sinica-wenyan.
 
 This work is published from Taiwan.
 
@@ -118,7 +118,7 @@ L<http://creativecommons.org/publicdomain/zero/1.0>
   <br />
   To the extent possible under law, <a href="http://www.audreyt.org/" rel="dct:publisher"><span property="dct:title">唐凤</span></a>
   has waived all copyright and related or neighboring rights to
-  <span property="dct:title">Lingua-Sinica-PerlYuYan</span>.
+  <span property="dct:title">Lingua-Sinica-wenyan</span>.
 This work is published from
 <span about="http://www.audreyt.org/" property="vcard:Country" datatype="dct:ISO3166" content="TW">Taiwan</span>.
 </p>
@@ -267,5 +267,5 @@ attributes autouse base blib bytes charnames constant diagnostics encoding field
 性         活      基   括   字    名        常       诊          码       栏
 filetest integer less locale overload sigtrap strict subs utf8 vars vmsish warnings
 试       筹      少   国     载       号      严     式   通   变   倭     警
-PerlYuYan::translate PerlYuYan::Tab
+wenyan::translate wenyan::Tab
 译                                   表

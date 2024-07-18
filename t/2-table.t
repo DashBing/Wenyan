@@ -1,5 +1,5 @@
 use utf8;
-use PerlYuYan qw();
+use wenyan qw();
 use Test::More;
 
 # kill UTF-8 warnings
@@ -81,8 +81,8 @@ binmode $builder->todo_output,    ':utf8';
     栏 => 'fields ',
     倭 => 'vmsish ',
     警 => 'warnings ',
-    译 => 'PerlYuYan::translate',
-    表 => 'PerlYuYan::Tab',
+    译 => 'wenyan::translate',
+    表 => 'wenyan::Tab',
 );
 my @untranslated = qw(
     formline getppid getpriority waitpid dbmopen getsockopt socketpair shmwrite
@@ -91,7 +91,7 @@ my @untranslated = qw(
 
 plan tests => keys(%check) + @untranslated;
 
-is $PerlYuYan::Tab{$_}, $check{$_},
+is $wenyan::Tab{$_}, $check{$_},
   "sample keyword $_ == »$check{$_}«" for keys %check;
-ok !exists $PerlYuYan::Tab{$_},
+ok !exists $wenyan::Tab{$_},
   "untranslated keyword »$_« is not in the table" for @untranslated;

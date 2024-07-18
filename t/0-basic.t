@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use PerlYuYan;
+use wenyan;
 
 用警兮用严。
 
