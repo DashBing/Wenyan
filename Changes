@@ -1,86 +1,86 @@
-our $VERSION = 1257700140.47574; # 2009年11月 9日 周一 01時09分11秒 CST
+our $VERSION = 1257700140.47574; # 2009年11月 9日 周一 01时09分11秒 CST
 
-至於 PerlYuYan / 中書珨，則是第一篇過渡情境裡的案頭詩。
+至于 PerlYuYan / 中书珨，则是第一篇过渡情境里的案头诗。
 
-就像是在對自已說，既然楚辭可以當程式跑，所以之後寫程式和寫詩的意思一樣。
-寫程式將親人召喚至眼前，應與寫詩將親人召喚至眼前等價。
+就像是在对自已说，既然楚辞可以当程式跑，所以之后写程式和写诗的意思一样。
+写程式将亲人召唤至眼前，应与写诗将亲人召唤至眼前等价。
 
-這確實是四歲小孩纔會有的心理狀態，但它無論如何主導了我 14~28 歲的人生過程。
+这确实是四岁小孩才会有的心理状态，但它无论如何主导了我 14~28 岁的人生过程。
 
-our $VERSION = 1257697900.5194; # 2009年11月 9日 周一 00時31分23秒 CST
+our $VERSION = 1257697900.5194; # 2009年11月 9日 周一 00时31分23秒 CST
 
-Re: 1257439830.94865 那篇，己轉至 http://tinyurl.com/hacking-sinthome。
+Re: 1257439830.94865 那篇，己转至 http://tinyurl.com/hacking-sinthome。
 
-(感謝 @godfat, @ilya 指正“射而不覆”，只講謎面不講謎底的習氣。)
-(感謝 @alevin 指正，其中 ancient romanticist poems 已改為 ancient Hellenic tragedies。）
+(感谢 @godfat, @ilya 指正“射而不覆”，只讲谜面不讲谜底的习气。)
+(感谢 @alevin 指正，其中 ancient romanticist poems 已改为 ancient Hellenic tragedies。）
 
-文章裡的“小孩”指的是我自已小時候的實際情況。
+文章里的“小孩”指的是我自已小时候的实际情况。
 
-文章裡的“楚辭”和“ancient Hellenic tragedies”是我 4~11 歲最常看的文學作品之二。
+文章里的“楚辞”和“ancient Hellenic tragedies”是我 4~11 岁最常看的文学作品之二。
 
-文章裡的“嬸嬸叔叔姑姑姑丈”是4~8歲住在家裡照顧我的許多真實存在的人。
+文章里的“婶婶叔叔姑姑姑丈”是4~8岁住在家里照顾我的许多真实存在的人。
 
-文章裡的“心臟病”指的是心室中隔缺損，造成心臟功率減半，無法運動也無法表現情緒，不然會暈倒。
+文章里的“心脏病”指的是心室中隔缺损，造成心脏功率减半，无法运动也无法表现情绪，不然会晕倒。
 
-文章裡的“案頭詩”指的是離開華文脈絡即不構成意義的程式，也就是大部分的 OurNet::* 模組。
+文章里的“案头诗”指的是离开华文脉络即不构成意义的程式，也就是大部分的 OurNet::* 模组。
 
-文章裡的“詩劇”指的是 Pugs 及之後在 S-Team、CPAN、Hackage、Socialtext 等地的作品。
-(Full Profile 詳見：http://www.linkedin.com/in/tangaudrey)
+文章里的“诗剧”指的是 Pugs 及之后在 S-Team、CPAN、Hackage、Socialtext 等地的作品。
+(Full Profile 详见：http://www.linkedin.com/in/tangaudrey)
 
-文章裡的“Sinthome”指的是我一直停留在 4~8 歲的心理狀態，想透過寫程式將親人召喚回身邊，
-而無瑕顧及名利諸染。
+文章里的“Sinthome”指的是我一直停留在 4~8 岁的心理状态，想透过写程式将亲人召唤回身边，
+而无瑕顾及名利诸染。
 
-於寫文章當天，發現世界己變，我不需經歷社會化之過程，即能達成二十年前之初願。
+于写文章当天，发现世界己变，我不需经历社会化之过程，即能达成二十年前之初愿。
 
-由此登入非想非非想處。
+由此登入非想非非想处。
 
-出定後，寫下定處看到的見聞，是為心慟凡例。
+出定后，写下定处看到的见闻，是为心恸凡例。
 
-our $VERSION = 1257439830.94865; # 2009年11月 6日 周五 00時50分39秒 CST
+our $VERSION = 1257439830.94865; # 2009年11月 6日 周五 00时50分39秒 CST
 
 (Based on a conversation from http://www.plurk.com/p/2ih40z)
 
-“其實這想法很簡單：
- NDS 上有一款 Scribblenaut 游戲，
- 小孩畫什麼就會出現什麼。”
+“其实这想法很简单：
+ NDS 上有一款 Scribblenaut 游戏，
+ 小孩画什么就会出现什么。”
 
 The idea is actually simple. On 兔肝猴 there's a game called 撰空, where kids
 can sketch out arbitrary concepts and it would automagically manifest in-game.
 
-“從小看楚辭長大的小孩，
- 自然就會希望自己寫“昨夜西風凋碧樹”
- 就真的跑出碧樹來。”
+“从小看楚辞长大的小孩，
+ 自然就会希望自己写“昨夜西风凋碧树”
+ 就真的跑出碧树来。”
 
 So a kid growing up reading ancient romanticist poems, would naturally wish
 that penning "the sacred river Alph" and a river would actually appear.
 
-“後來小孩長大了一點發現可以寫程式做到這件事。
- 就醬。:-)”
+“后来小孩长大了一点发现可以写程式做到这件事。
+ 就酱。:-)”
 
 Then the kid grew up a bit and discovered programming can actually project
 infantile omnipotence into a transitional zone. That's it. :-)
 
                                           ...
 
-“後來照顧小孩的叔叔姑姑伯伯嬸嬸各自搬走，
- 小孩心臟病很嚴重不能旅行，
- 只能寫詩想念他們。”
+“后来照顾小孩的叔叔姑姑伯伯婶婶各自搬走，
+ 小孩心脏病很严重不能旅行，
+ 只能写诗想念他们。”
 
 Shortly afterward, the kid's primary caretakers - many uncles and aunts - formed
 families themselves and moved far away; the kid was born with severe ventricular
 septal defect and cannot travel at all, so the kid poured wailing into poetry.
 
-“後來發現這些詩只要押了特定的 P 韻腳，
+“后来发现这些诗只要押了特定的 P 韵脚，
  像是 TCP, UDP, IP, HTTP, XMPP，
  就有魔力。”
 
-After a while, the kid had a discovery: As long as the poems rhymes on -協,
-such as 傳控協, 用信協, 跨協, 超文傳協 and 擴訊現協, mysterious power would
+After a while, the kid had a discovery: As long as the poems rhymes on -协,
+such as 传控协, 用信协, 跨协, 超文传协 and 扩讯现协, mysterious power would
 appear out of nowhere.
 
-“後來再大一點，和其他人一起寫詩劇，
- 演成噗浪和臉書，
- 叔叔姑姑伯伯嬸嬸真的都進入詩的世界了。”
+“后来再大一点，和其他人一起写诗剧，
+ 演成噗浪和脸书，
+ 叔叔姑姑伯伯婶婶真的都进入诗的世界了。”
 
 So the kid first wrote closet drama, and later learned to compose huge verses
 based on multipart/mixed playwrights.
@@ -91,11 +91,11 @@ publicly performed on the stages of Twitter and Facebook.
 And the Real uncles and aunts, still alive, now register into the kid's
 Imaginary zone conjured from sheer Symbolic power.
 
-“以上是對於拉岡 Sinthome 概念的實例講解。:-)”
+“以上是对于拉冈 Sinthome 概念的实例讲解。:-)”
 
-The above is a field report illustrating Lacan's idea of 心慟. :-)
+The above is a field report illustrating Lacan's idea of 心恸. :-)
 
-our $VERSION = 1257342595.16102; # 2009年11月 4日 周三 21時50分12秒 CST
+our $VERSION = 1257342595.16102; # 2009年11月 4日 周三 21时50分12秒 CST
 
 13:48 <nothingmuch> use Time::HiRes qw(time);
 13:48 <audreyt> right, it's the era of 64 bits
@@ -144,7 +144,7 @@ our $VERSION = 1257342595.16102; # 2009年11月 4日 周三 21時50分12秒 CST
 14:05 <nothingmuch> i need to do laundry and rehearse myself
 14:06 <audreyt> :D see ya!
 
-our $VERSION = 1257305840; # 2009年11月 4日 周三 11時37分11秒 CST
+our $VERSION = 1257305840; # 2009年11月 4日 周三 11时37分11秒 CST
 
 * Restore SYNOPSIS text so it works under modern Perl again.
 
@@ -155,7 +155,7 @@ our $VERSION = 1257305840; # 2009年11月 4日 周三 11時37分11秒 CST
     author undef;
     license 'cc0';
 
-our $VERSION = 1257301380; # 2009年11月 4日 周三 10時22分59秒 CST
+our $VERSION = 1257301380; # 2009年11月 4日 周三 10时22分59秒 CST
 
 * VERSIONING CHANGE: This module is now using the Unix timestamp
   as its version number format.
@@ -163,7 +163,7 @@ our $VERSION = 1257301380; # 2009年11月 4日 周三 10時22分59秒 CST
 * LICENSING CHANGE: This compilation and all individual files in it
   are now under the nullary CC0 1.0 Universal terms:
 
-  To the extent possible under law, 唐鳳 has waived all copyright and
+  To the extent possible under law, 唐凤 has waived all copyright and
   related or neighboring rights to Lingua-Sinica-PerlYuYan.
 
 [Changes for 0.11 - 2009-11-03]
@@ -173,7 +173,7 @@ our $VERSION = 1257301380; # 2009年11月 4日 周三 10時22分59秒 CST
 * Add some more keywords and operators:
 * Bump required Perl version from 5.8 to 5.10 in order to support:
       say, ~~, //, //=, given, when, break
-* Translate (if 倘), (while 當)
+* Translate (if 倘), (while 当)
 
 Contributed by: Lars Dɪᴇᴄᴋᴏᴡ 迪拉斯 <daxim@cpan.org>
 
