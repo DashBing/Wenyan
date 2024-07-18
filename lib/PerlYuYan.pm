@@ -1,4 +1,4 @@
-package Lingua::Sinica::PerlYuYan;
+package PerlYuYan;
 
 use 5.008;
 use utf8;
@@ -6,50 +6,50 @@ use strict;
 use Filter::Simple::Compile;
 use Encode ();
 
-our $VERSION = 1257700140.47574; # 2009年11月 9日 周一 01時09分11秒 CST
+our $VERSION = 1257700140.47574; # 2009年11月 9日 周一 01时09分11秒 CST
 
 =encoding utf8
 
 =head1 NAME
 
-Lingua::Sinica::PerlYuYan - 中書珨 - Perl in Classical Chinese in Perl
+PerlYuYan - 中书珨 - Perl in Classical Chinese in Perl
 
 =head1 VERSION
 
-our $VERSION = 1257700140.47574; # 2009年11月 9日 周一 01時09分11秒 CST
+our $VERSION = 1257700140.47574; # 2009年11月 9日 周一 01时09分11秒 CST
 
 =head1 SYNOPSIS
 
-    # The Sieve of Eratosthenes - 埃拉托斯芬篩法
-    use Lingua::Sinica::PerlYuYan;
+    # The Sieve of Eratosthenes - 埃拉托斯芬筛法
+    use PerlYuYan;
 
-      用籌兮用嚴。井涸兮無礙
-    。印曰最高矣  又道數然哉。
-    。截起吾純風  賦小入大合。
-    。習予吾陣地  並二至純風。
-    。當起段賦取  加陣地合始。
-    。陣地賦篩始  繫繫此雜段。
-    。終陣地兮印  正道次標哉。
-    。輸空接段點  列終註泰來。
+      用筹兮用严。井涸兮无碍
+    。印曰最高矣  又道数然哉。
+    。截起吾纯风  赋小入大合。
+    。习予吾阵地  并二至纯风。
+    。当起段赋取  加阵地合始。
+    。阵地赋筛始  系系此杂段。
+    。终阵地兮印  正道次标哉。
+    。输空接段点  列终注泰来。
 
 =head1 DESCRIPTION
 
 This module makes it possible to write Perl programs in Classical Chinese poetry in Perl.
 
-說此經者，能以珨文言文珨。
+说此经者，能以珨文言文珨。
 
 (If one I<has> to ask "Why?", please refer to L<Lingua::Romana::Perligata> for
 related information.)
 
-(闕譯，以待來者。)
+(阙译，以待来者。)
 
 This module uses the single-character property of Chinese to disambiguate
 between keywords, so one may elide whitespaces much like in real Chinese writings.
 
-The vocabulary is in the 文言 (literary text) mode, not the common 白話
+The vocabulary is in the 文言 (literary text) mode, not the common 白话
 (spoken text) mode with multisyllabic words.
 
-C<Lingua::Sinica::PerlYuYan::translate()> (or simply as C<譯()>) translates a
+C<PerlYuYan::translate()> (or simply as C<译()>) translates a
 string containing English programs into Chinese.
 
 =cut
@@ -70,7 +70,7 @@ while (<DATA>) {
     }
 }
 
-@Tab{qw{ 資曰     亂曰    檔曰     列曰     套曰        }}
+@Tab{qw{ 资曰     乱曰    档曰     列曰     套曰        }}
    = qw{ __DATA__ __END__ __FILE__ __LINE__ __PACKAGE__ };
 
 FILTER {
@@ -102,7 +102,7 @@ L<Filter::Simple::Compile>, L<Lingua::Romana::Perligata>
 
 =head1 CC0 1.0 Universal
 
-To the extent possible under law, 唐鳳 has waived all copyright and related
+To the extent possible under law, 唐凤 has waived all copyright and related
 or neighboring rights to Lingua-Sinica-PerlYuYan.
 
 This work is published from Taiwan.
@@ -116,7 +116,7 @@ L<http://creativecommons.org/publicdomain/zero/1.0>
     <img src="http://i.creativecommons.org/l/zero/1.0/88x31.png" border="0" alt="CC0" />
   </a>
   <br />
-  To the extent possible under law, <a href="http://www.audreyt.org/" rel="dct:publisher"><span property="dct:title">唐鳳</span></a>
+  To the extent possible under law, <a href="http://www.audreyt.org/" rel="dct:publisher"><span property="dct:title">唐凤</span></a>
   has waived all copyright and related or neighboring rights to
   <span property="dct:title">Lingua-Sinica-PerlYuYan</span>.
 This work is published from
@@ -129,29 +129,29 @@ This work is published from
 
 __DATA__
 a b c d e f g h i j k l m n o p q r s t u v w x y z
-甲乙丙丁戊己庚辛壬癸子丑寅卯辰巳午未申酉戌亥地水火風
+甲乙丙丁戊己庚辛壬癸子丑寅卯辰巳午未申酉戌亥地水火风
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-青心赤肝黃脾白肺黑腎鼠牛虎兔龍蛇馬羊猴雞狗豬春夏秋冬
+青心赤肝黄脾白肺黑肾鼠牛虎兔龙蛇马羊猴鸡狗猪春夏秋冬
 
 0 1 2 3 4 5 6 7 8 9 10 100 1000 10000 10000_0000
-零一二三四五六七八九十 百  千   萬    億
+零一二三四五六七八九十 百  千   万    亿
 0 1 2 3 4 5 6 7 8 9 10 100 1000 20 30
-零壹貳毿肆伍陸柒捌玖拾 佰  仟   廿 卅
+零壹贰毵肆伍陆柒捌玖拾 佰  仟   廿 卅
 0 1 2 3 4 5 6 7 8 9
 ０１２３４５６７８９
 
 ! @ # # $ % % ^ & * ( ) - = _ + + [ ] { } \ | ; : :
-非陣井註純雜模析和乘起合減賦底加正內外始終參聯兮然標
+非阵井注纯杂模析和乘起合减赋底加正内外始终参联兮然标
 ' ' " " , , => < . . > / / ? ` ` ~
-曰矣道哉又並與 小點接大除分歟行者繫
+曰矣道哉又并与 小点接大除分欤行者系
 ! @ # $ % ^ & * ( ) - = _ + [ ] { } \ | ; ; : ' " , , < . > / ? ` ~
 ！＠＃＄％︿＆＊（）－＝＿＋〔〕｛｝╲｜；。：’”，、＜．＞╱？‵～
 
 .. ... ** ++ -- -> ::
-至 乃  冪 增 扣 之 宗
+至 乃  幂 增 扣 之 宗
 
 && == || and or lt gt cmp eq not
-及 等 許 且  或 前 後 較  同 否
+及 等 许 且  或 前 后 较  同 否
 
 =~ !~ x <=> ~~ //
 =~ !~ x <=> ~~ //
@@ -163,75 +163,75 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 **= += *= &= <<= &&= -= /= |= >>= ||= .= %= ^= //= x=
 
 $/ $_ @_ "\x20" "\t" "\n" main
-段 此 諸 空     格   列   主
+段 此 诸 空     格   列   主
 
 STDIN STDOUT STDERR DATA BEGIN END INIT CHECK DESTROY
-入    出     誤     料   創    末  育   察    滅
+入    出     误     料   创    末  育   察    灭
 
 chomp chop chr crypt hex index lc lcfirst length oct ord pack q/ qq/ reverse
-截    斬   文  密    爻  索    纖 細      長     卦  序  包   引 雙  逆
+截    斩   文  密    爻  索    纤 细      长     卦  序  包   引 双  逆
 rindex sprintf substr tr/ uc ucfirst y/
-檢     編      部     轉  壯 厚      換
+检     编      部     转  壮 厚      换
 
 m/ pos quotemeta s/ split study qr/
-符 位  逸        代 切    習    規
+符 位  逸        代 切    习    规
 
 abs atan2 cos exp hex int log oct rand sin sqrt srand
-絕  角    餘  階  爻  整  對  卦  亂   弦  根   騷
+绝  角    余  阶  爻  整  对  卦  乱   弦  根   骚
 
 pop push shift splice unshift
-彈  推   取    抽     予
+弹  推   取    抽     予
 
 grep join map qw/ reverse sort unpack
-篩   併   映  篇  逆      排   啟
+筛   并   映  篇  逆      排   启
 
 delete each exists keys values
-刪     每   存     鍵   值
+删     每   存     键   值
 
 binmode close closedir dbmclose dbmopen die eof fileno flock format getc
-法      閉    關       閤       揭      死  結  號     鎖    排     擷
+法      闭    关       合       揭      死  结  号     锁    排     撷
 print printf read readdir rewinddir seek seekdir select syscall
-印    輸     讀   覽      迴        搜   尋      擇     召
+印    输     读   览      回        搜   寻      择     召
 sysread sysseek syswrite tell telldir truncate warn write
-鑑      狩      敕       告   訴      縮       訊   寫
+鉴      狩      敕       告   诉      缩       讯   写
 
 pack read unpack vec
-包   讀   啟     向
+包   读   启     向
 
 chdir chmod chown chroot fcntl glob ioctl link lstat mkdir open opendir
-目    權    擁    遷     控    全   制    鏈   況    造    開   展
+目    权    拥    迁     控    全   制    链   况    造    开   展
 readlink rename rmdir stat symlink umask unlink utime
-循       更     毀    態   徵      蒙    鬆     刻
+循       更     毁    态   征      蒙    松     刻
 
 say if else elsif until while foreach given when default break
-說  倘 匪   乃    迄    當    逐      設    若   預      折
+说  倘 匪   乃    迄    当    逐      设    若   预      折
 
 caller continue die do dump eval exit goto last next redo return sub wantarray
-喚     續       死  為 傾   執   離   躍   尾   次   再   回     副  欲
+唤     续       死  为 倾   执   离   跃   尾   次   再   回     副  欲
 
 caller import local my our package use
-喚     導     域    吾 咱  套      用
+唤     导     域    吾 咱  套      用
 
 defined dump eval formline local my our reset scalar undef wantarray
-定      傾   執   劃       域    吾 咱  抹    量     消    欲
+定      倾   执   划       域    吾 咱  抹    量     消    欲
 
 alarm exec fork getpgrp getppid getpriority kill
-鈴    生   殖   getpgrp getppid getpriority 殺
+铃    生   殖   getpgrp getppid getpriority 杀
 
 for
 重
 
 pipe qx/ setpgrp setpriority sleep system times wait waitpid
-管   qx/ setpgrp setpriority 眠    作     計    候   waitpid
+管   qx/ setpgrp setpriority 眠    作     计    候   waitpid
 
 do no package require use
-為 無 套      必      用
+为 无 套      必      用
 
 bless dbmclose dbmopen package ref tie tied untie
-祝    dbmclose dbmopen 套      照  纏  縛   解
+祝    dbmclose dbmopen 套      照  缠  缚   解
 
 accept bind connect getpeername getsockname getsockopt listen recv send
-受     束   連      getpeername getsockname getsockopt 聆     收   送
+受     束   连      getpeername getsockname getsockopt 聆     收   送
 
 setsockopt shutdown sockatmark socket socketpair
 setsockopt shutdown sockatmark 槽     槏
@@ -261,11 +261,11 @@ setnetent setprotoent setservent
 setnetent setprotoent setservent
 
 gmtime localtime time
-準     區        時
+准     区        时
 
 attributes autouse base blib bytes charnames constant diagnostics encoding fields
-性         活      基   括   字    名        常       診          碼       欄
+性         活      基   括   字    名        常       诊          码       栏
 filetest integer less locale overload sigtrap strict subs utf8 vars vmsish warnings
-試       籌      少   國     載       號      嚴     式   通   變   倭     警
-Lingua::Sinica::PerlYuYan::translate Lingua::Sinica::PerlYuYan::Tab
-譯                                   表
+试       筹      少   国     载       号      严     式   通   变   倭     警
+PerlYuYan::translate PerlYuYan::Tab
+译                                   表
