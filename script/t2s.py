@@ -29,6 +29,8 @@ def dfs(path, do=change_file):  # 简单地深度优先搜索目录下所有文�
 
 def main():
     del argv[0]
+    os.chdir(argv[0])
+    del argv[0]
     if len(argv) == 0:
         exit(1)
     for i in argv:
