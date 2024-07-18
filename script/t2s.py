@@ -29,3 +29,6 @@ def main():
         exit(1)
     for i in argv:
         dfs(i)
+
+if __name__ == "__main__":
+    main()
