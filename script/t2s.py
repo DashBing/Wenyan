@@ -16,8 +16,10 @@ def change_file(filename):  # 简化一个文件中的汉字
 def dfs(path, do=change_file):  # 简单地深度优先搜索目录下所有文件
     if os.path.isdir(path):
         l = os.listdir(path)
+        os.chdir(path)
         for i in l:
             dfs(i)
+        os.chdir("../")
     elif os.path.isfile(path):
         do(path)
     else:
