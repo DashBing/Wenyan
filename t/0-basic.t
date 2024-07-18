@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use Lingua::Sinica::PerlYuYan;
+use PerlYuYan;
 
 用警兮用严。
 

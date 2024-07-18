@@ -1,4 +1,4 @@
-use Lingua::Sinica::PerlYuYan;
+use PerlYuYan;
 
 注俄农式乘法
 无警兮

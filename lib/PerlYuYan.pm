@@ -1,4 +1,4 @@
-package Lingua::Sinica::PerlYuYan;
+package PerlYuYan;
 
 use 5.008;
 use utf8;
@@ -12,7 +12,7 @@ our $VERSION = 1257700140.47574; # 2009年11月 9日 周一 01时09分11秒 CST
 
 =head1 NAME
 
-Lingua::Sinica::PerlYuYan - 中书珨 - Perl in Classical Chinese in Perl
+PerlYuYan - 中书珨 - Perl in Classical Chinese in Perl
 
 =head1 VERSION
 
@@ -21,7 +21,7 @@ our $VERSION = 1257700140.47574; # 2009年11月 9日 周一 01时09分11秒 CST
 =head1 SYNOPSIS
 
     # The Sieve of Eratosthenes - 埃拉托斯芬筛法
-    use Lingua::Sinica::PerlYuYan;
+    use PerlYuYan;
 
       用筹兮用严。井涸兮无碍
     。印曰最高矣  又道数然哉。
@@ -49,7 +49,7 @@ between keywords, so one may elide whitespaces much like in real Chinese writing
 The vocabulary is in the 文言 (literary text) mode, not the common 白话
 (spoken text) mode with multisyllabic words.
 
-C<Lingua::Sinica::PerlYuYan::translate()> (or simply as C<译()>) translates a
+C<PerlYuYan::translate()> (or simply as C<译()>) translates a
 string containing English programs into Chinese.
 
 =cut
@@ -267,5 +267,5 @@ attributes autouse base blib bytes charnames constant diagnostics encoding field
 性         活      基   括   字    名        常       诊          码       栏
 filetest integer less locale overload sigtrap strict subs utf8 vars vmsish warnings
 试       筹      少   国     载       号      严     式   通   变   倭     警
-Lingua::Sinica::PerlYuYan::translate Lingua::Sinica::PerlYuYan::Tab
+PerlYuYan::translate PerlYuYan::Tab
 译                                   表
